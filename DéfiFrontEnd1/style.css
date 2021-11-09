@@ -1,1 +1,29 @@
-Défi 1
+section.first-section 
+{
+    background-color:blue;
+    
+}
+h1
+{
+    font-weight: bold;
+}
+
+li.ourstudio-container
+{
+    color:darkblue;
+}
+
+p.bold-white
+{
+    font-weight: bold;
+}
+
+section.second-section
+{
+    background-color:white;
+}
+
+section.third-section
+{
+    background-color:blue
+}
