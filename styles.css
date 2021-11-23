@@ -1,0 +1,217 @@
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:aliceblue;
+    background-color:black;
+    size: 15px;
+    weight: 400;
+    line-height: 24px;
+}
+.page
+{
+    margin:0 auto;
+    width: 1360px;
+    background-color: rgb(0,126,243);
+}
+
+
+.wemakemagic-container
+{
+    display:flex;
+}
+
+
+section.wemakemagic
+{
+    height:600px;
+    margin-bottom:80px;
+    padding-top:10px;
+}
+section.wemakemagic h1
+{
+    font-size:larger;
+}
+section.whatdowedo p
+{
+    color:gray;
+}
+
+section.whatdowedo
+{
+    background-color:aliceblue;
+    color: black;
+    max-width:auto;
+    height:310px;
+    margin-top:120px;
+    padding-top:50px;
+    padding-left:300px;
+}
+.whatdowedo-container
+{
+    width:700px;
+    height:150px;
+    text-align:center;
+    align-items: center;
+}
+.howdowedoit-container
+{
+text-align:left;
+}
+section.contactus
+{
+    background-color:white;
+    color:black;
+    height:860px;
+}
+
+.text-contactus
+{
+    padding-left:220px;
+    padding-top:80px;
+}
+.text-contactus h2
+{
+    padding-bottom:55px;
+}
+.text-contactus p
+{
+    padding-bottom:35px;
+}
+.img-contactus-container
+{
+    width: 540px;
+    height: 570px;
+    margin: 0;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: right;
+    padding-left:220px;
+}
+
+section.contactus img
+{
+    object-fit: cover;
+    height:auto;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr)
+}
+
+.madamebleu
+{
+    height:100px;
+    width:90px;
+
+}
+
+header 
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 80px;
+    float: left;
+    padding-right:30px;
+}
+
+header a.navbar-logo
+{
+    padding-left:30px;
+    padding-right:70px;
+}
+a
+{
+    text-decoration:none;
+}
+
+header a.ourstudio
+{
+    width:105px;
+    height:75px;
+    background-color: rgb(0,103,199);
+    padding-top:30px;
+    padding-bottom:25px;
+    padding-left:15px;
+    padding-right:15px;
+    font-weight:bold;
+}
+
+
+.container-loupe
+{
+    filter:invert(100%);
+}
+
+.yourarea-container
+{
+    border-radius:5px;
+    border: 1px solid white;
+}
+.yourarea-container img
+{
+    filter:invert(100%);
+    padding-right:30px;
+}
+
+.main-container
+{   
+    width: 680px;
+    height: 420px;
+    margin: 0;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: right;
+}
+
+
+section.howwedoit img
+{
+    object-fit: cover;
+    height:auto;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr)
+}
+
+ul li 
+{
+    display: inline;
+}
+
+li a 
+{
+    display: inline;
+    padding: 10px;
+    margin: 8px;
+    color:aliceblue;
+}
+
+section.startwithb
+{
+    height:257px;
+    background-color:rgb(244,244,244);
+    padding-top:30px;
+}
+
+footer.socialmedia
+{
+    text-align: center;
+    height:170px;
+    padding-top: 100px;
+    background-color:white;
+    justify-items: space-between;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+footer.blacklogo
+{
+    height:235px;
+    text-align:center;
+    color:black;
+    background-color:white;
+    font-weight: bold;
+    padding-top: 85px;
+    
+}
