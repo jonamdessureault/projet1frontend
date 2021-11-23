@@ -23,6 +23,13 @@ margin:0;
 {
     display:grid;
 }
+
+section.wemakemagic
+{
+    height:600px;
+    margin-bottom:80px;
+    padding-top:10px;
+}
 section.wemakemagic h1
 {
     font-size:larger;
@@ -76,18 +83,46 @@ header
     box-sizing: border-box;
     height: 80px;
     float: left;
-    
 }
+
+header a.navbar-logo
+{
+    padding-left:30px;
+    padding-right:70px;
+}
+a
+{
+    text-decoration:none;
+}
+
+header a.ourstudio
+{
+    width:105px;
+    height:75px;
+    background-color: rgb(0,103,199);
+    padding-top:30px;
+    padding-bottom:25px;
+    padding-left:15px;
+    padding-right:15px;
+    font-weight:bold;
+}
+
+
 .container-loupe
 {
     filter:invert(100%);
 }
 
-
+.yourarea-container
+{
+    border-style:
+}
 .yourarea-container img
 {
     filter:invert(100%);
+    padding-right:30px;
 }
+
 .main-container
 {   
     width: 680px;
@@ -121,3 +156,5 @@ li a
     color:aliceblue;
 
 }
+
+
