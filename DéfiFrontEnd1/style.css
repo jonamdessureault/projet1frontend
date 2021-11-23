@@ -14,15 +14,12 @@ body
     background-color: rgb(0,126,243);
 }
 
-html body
-{
-margin:0;
 
-}
-.wemakemagic-image
+.wemakemagic-container
 {
-    display:grid;
+    display:flex;
 }
+
 
 section.wemakemagic
 {
@@ -46,6 +43,8 @@ section.whatdowedo
     max-width:auto;
     height:310px;
     margin-top:120px;
+    padding-top:50px;
+    padding-left:300px;
 }
 .whatdowedo-container
 {
@@ -54,8 +53,31 @@ section.whatdowedo
     text-align:center;
     align-items: center;
 }
-
+.howdowedoit-container
+{
+text-align:left;
+}
 section.contactus
+{
+    background-color:white;
+    color:black;
+    height:860px;
+}
+
+.text-contactus
+{
+    padding-left:220px;
+    padding-top:80px;
+}
+.text-contactus h2
+{
+    padding-bottom:55px;
+}
+.text-contactus p
+{
+    padding-bottom:35px;
+}
+.img-contactus-container
 {
     width: 540px;
     height: 570px;
@@ -63,6 +85,7 @@ section.contactus
     padding: 0px 0px;
     display: flex;
     justify-content: right;
+    padding-left:220px;
 }
 
 section.contactus img
@@ -74,6 +97,13 @@ section.contactus img
     grid-template-columns: repeat(2,1fr)
 }
 
+.madamebleu
+{
+    height:100px;
+    width:90px;
+
+}
+
 header 
 {
     display: flex;
@@ -83,6 +113,7 @@ header
     box-sizing: border-box;
     height: 80px;
     float: left;
+    padding-right:30px;
 }
 
 header a.navbar-logo
@@ -115,7 +146,8 @@ header a.ourstudio
 
 .yourarea-container
 {
-    border-style:
+    border-radius:5px;
+    border: 1px solid white;
 }
 .yourarea-container img
 {
@@ -154,7 +186,32 @@ li a
     padding: 10px;
     margin: 8px;
     color:aliceblue;
-
 }
 
+section.startwithb
+{
+    height:257px;
+    background-color:rgb(244,244,244);
+    padding-top:30px;
+}
 
+footer.socialmedia
+{
+    text-align: center;
+    height:170px;
+    padding-top: 100px;
+    background-color:white;
+    justify-items: space-between;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+footer.blacklogo
+{
+    height:235px;
+    text-align:center;
+    color:black;
+    background-color:white;
+    font-weight: bold;
+    padding-top: 85px;
+    
+}
