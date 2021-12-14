@@ -2,164 +2,11 @@ body
 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     size: 15px;
-    weight: 400;
     line-height: 24px;
     margin:0;
     background-color: rgb(0,126,243);
     margin:0 auto;
     width: 1360px;
-}
-
-
-section.wemakemagic
-{
-    height:460px;
-    margin-bottom:80px;
-    padding-top:200px;
-    background-image:url("imagesmaquette/man_working.png");
-    background-repeat:no-repeat;
-    background-position:700px 0px;
-}
-
-section.wemakemagic
-{
-    color:aliceblue;
-}
-
-
-
-
-.wemakemagic-container
-{
-    display:flex;
-    
-}
-
-.wemakemagic-textblock
-{
-    padding-left:200px;
-
-}
-
-.wemakemagic-textblock p
-{
-color:RGB(174, 214, 251);
-width:360px;
-height:40px;
-
-}
-
-.wemakemagic-textblock h1
-{
-    font-size: 64px;
-    width:280px;
-    height:150px;
-    line-height:1.2;
-
-}
-
-section.whatdowedo p
-{
-    color:gray;
-}
-
-
-section.whatdowedo
-{
-    background-color:aliceblue;
-    color: black;
-    max-width:auto;
-    height:280px;
-    margin-top:120px;
-    padding-top:50px;
-    padding-left:300px;
-    padding-bottom:
-}
-
-
-.whatdowedo-container
-{
-    width:700px;
-    height:150px;
-    text-align:center;
-    align-items: center;
-}
-
-.whatdowedo-container h2
-{
-    font-size: 40px;
-}
-section.howdowedoit
-{
-    width:1360px;
-    height:480px;
-    background-color: rgb(0,126,243);
-    padding-left: 210px;
-    
-
-}
-
-.howdowedoit-textblock h2
-{
-    font-size:40px;
-}
-
-.howdowedoit-container
-{
-    display:flex;
-}
-
-
-.howdowedoit-textblock
-{
-    width:700px;
-    height:480px;
-    color:aliceblue;
-    padding-top:120px;
-}
-
-.howdowedoit-textblock h2
-{
-    width:350px;
-}
-
-.howdowedoit-textblock p
-{
-    color:RGB(174, 214, 251);
-    width:400px;
-}
-
-.howdowedoit-textblock a
-{
-    color:white;
-}
-
-
-.ourvalues-container
-{
-    display:flex;
-    color:white;
-}
-
-.ourvalues-img
-{
-    width:580px;
-    height:360px;
-    background-color: RGB(0,103,199);
-    padding-top:80px;
-    padding-left:100px;
-    padding-bottom:100px;
-}
-
-.ourvalues-textblock
-{
-    padding-left:50px;
-}
-
-li.ourvalues-liste
-{   display:flex;
-    border-bottom: 1px solid rgba(104,165,222,255);
-    justify-content: space-between;
 }
 
 header 
@@ -173,19 +20,16 @@ header
     color:RGB(174, 214, 251);
 }
 
-
 header a.navbar-logo
 {
     padding-left:30px;
     padding-right:70px;
 }
 
-
 a
 {
     text-decoration:none;
 }
-
 
 header a.ourstudio
 {
@@ -200,12 +44,10 @@ header a.ourstudio
     color:white;
 }
 
-
 ul li 
 {
     display: inline;
 }
-
 
 li a 
 {
@@ -214,7 +56,6 @@ li a
     margin: 8px;
     color:aliceblue;
 }
-
 
 .container-loupe
 {
@@ -228,13 +69,11 @@ li a
     width:auto;
 }
 
-
 nav
 {
     padding-right:187px;
     padding-left:150px;
 }
-
 
 .yourarea-container
 {
@@ -243,9 +82,7 @@ nav
     height:30px;
     width:150px;
     padding-top:10px;
-
 }
-
 
 .yourarea-container img
 {
@@ -255,18 +92,132 @@ nav
     width:auto;
 }
 
-
 .yourarea-container a
 {
     padding-left:30px;
     color:white;
 }
 
+section.wemakemagic
+{
+    height:460px;
+    margin-bottom:80px;
+    padding-top:200px;
+    background-image:url("imagesmaquette/man_working.png");
+    background-repeat:no-repeat;
+    background-position:700px 0px;
+    color:aliceblue;
+}
+
+.wemakemagic-container
+{
+    display:flex;
+}
+
+.wemakemagic-textblock
+{
+    padding-left:200px;
+}
+
+.wemakemagic-textblock p
+{
+    color:RGB(174, 214, 251);
+    width:360px;
+    height:40px;
+}
+
+.wemakemagic-textblock h1
+{
+    font-size: 64px;
+    width:280px;
+    height:150px;
+    line-height:1.2;
+}
+
+.wemakemagic-textblock input
+{
+    border-radius:5px;
+    Border:1px solid aliceblue;
+    background-color:rgb(0,126,243);
+    width:230px;
+    height:50px;
+    margin-top:60px;
+    color: aliceblue;
+    font-size:14px;
+    font-weight:bold;
+}
+
+section.whatdowedo
+{
+    background-color:aliceblue;
+    color: black;
+    max-width:auto;
+    height:280px;
+    margin-top:120px;
+    padding-top:50px;
+    padding-left:300px;
+}
+
+section.whatdowedo p
+{
+    color:gray;
+}
+
+.whatdowedo-container
+{
+    width:700px;
+    height:150px;
+    text-align:center;
+    align-items: center;
+}
+
+.whatdowedo-container h2
+{
+    font-size: 40px;
+}
+
+section.howdowedoit
+{
+    width:1360px;
+    height:440px;
+    background-color: rgb(0,126,243);
+    padding-left: 210px;
+}
+
+.howdowedoit-textblock
+{
+    width:700px;
+    height:440px;
+    color:aliceblue;
+    padding-top:120px;
+}
+
+.howdowedoit-textblock h2
+{
+    font-size:40px;
+    width:350px;
+}
+
+.howdowedoit-textblock p
+{
+    color:RGB(174, 214, 251);
+    width:400px;
+}
+
+.howdowedoit-textblock a
+{
+    color:white;
+}
+
+.howdowedoit-container
+{
+    display:flex;
+}
 
 .main-container
 {   
     width: 680px;
-    height: 480px;
+    height: 440px;
     margin: 0;
     padding: 0px 0px;
     display: flex;
@@ -277,6 +228,44 @@ nav
 .main-container img
 {
     width:680px;
+}
+
+section.ourvalues h2
+{
+    font-size:40px;
+    margin-left:35px;
+}
+
+.ourvalues-container
+{
+    display:flex;
+    color:white;
+}
+
+.ourvalues-img
+{
+    width:580px;
+    background-color: RGB(0,103,199);
+    padding-top:80px;
+    padding-left:100px;
+    padding-bottom:40px;
+}
+
+.ourvalues-textblock
+{
+    padding-left:50px;
+    margin-top:60px;
+}
+
+li.ourvalues-liste
+{   display:flex;
+    border-bottom: 1px solid rgba(104,165,222,255);
+    justify-content: space-between;
+}
+
+ul.ul-ourvalues
+{
+    width:410px;
 }
 
 section.contactus
@@ -294,7 +283,7 @@ section.contactus
 .text-contactus
 {
     padding-left:220px;
-    padding-top:80px;
+    padding-top:50px;
 }
 
 .text-contactus img
@@ -309,23 +298,14 @@ section.contactus
 
 .text-contactus h2
 {
-    padding-bottom:55px;
+    padding-bottom:10px;
     font-size: 40px;
 }
 
-
 .text-contactus p
 {
-    padding-bottom:35px;
+    padding-bottom:15px;
     color:RGB(175, 175, 175);
-}
-
-
-
-
-.madamebleuetc
-{
-
 }
 
 .carrebleu
@@ -334,6 +314,8 @@ section.contactus
     width:305px;
     background-color: RGB(223, 240, 255);
     border-radius:5px;
+    margin-top:215px;
+    margin-left:50px;
 }
 
 .carrebleu img
@@ -346,8 +328,7 @@ section.contactus
 {
     padding-left:20px;
     padding-right:20px;
-    line-height:0.8;
-
+    line-height:1.2;
 }
 
 .carregris
@@ -357,26 +338,50 @@ section.contactus
     background-color: RGB(247, 247, 247);
     padding-top:25px;
     padding-left:25px;
+    margin-left:50px;
+    margin-top:20px;
+    color: rgb(141, 196, 246);
 }
 
 section.startwithb
 {
-    height:257px;
+    height:190px;
     background-color:rgb(244,244,244);
-    padding-top:30px;
+    padding-top:60px;
+    border-top:1px solid rgb(204, 204, 204);
+    text-align:center;
+    padding-bottom:20px;
+    color:rgb(46, 42, 42);
 }
 
+section.startwithb p
+{
+    font-size:22px;
+}
+
+section.startwithb input
+{
+    border-radius:6px;
+    Border:1px solid aliceblue;
+    background-color:rgb(0,126,243);
+    margin-top:20px;
+    width:230px;
+    height:50px;
+    color: aliceblue;
+    font-size:14px;
+    font-weight:bold;
+}
 
 footer.socialmedia
 {
     text-align: center;
-    height:170px;
-    padding-top: 100px;
+    height:90px;
+    padding-top: 70px;
     background-color:white;
     justify-items: space-between;
     border-bottom: 1px solid rgb(204, 204, 204);
+    border-top:1px solid rgb(204, 204, 204);
 }
-
 
 footer.blacklogo
 {
@@ -388,7 +393,16 @@ footer.blacklogo
     padding-top: 85px;
 }
 
-section.ourvalues h2
+.minus-sign
+{
+    font-size:80px;
+    font-weight:lighter;
+    margin-top:10px;
+}
+
+.plus-sign
 {
     font-size:40px;
+    font-weight:lighter;
+    margin-top:10px;
 }
